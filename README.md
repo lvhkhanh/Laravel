@@ -17,7 +17,11 @@ https://devcenter.heroku.com/articles/getting-started-with-php#set-up
 heroku login
 heroku git:remote -a [heroku-app-name]
 git push heroku master
+you can open the website as follows:
+heroku open
 https://[heroku-app-name].herokuapp.com/
+Ensure that at least one instance of the app is running:
+heroku ps:scale web=1
 
 Install Composer
 https://getcomposer.org/Composer-Setup.exe
