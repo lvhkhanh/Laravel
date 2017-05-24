@@ -12,6 +12,9 @@ cd php-getting-started
 Install Heroku CLI
 https://devcenter.heroku.com/articles/getting-started-with-php#set-up
 heroku login
+heroku git:remote -a [heroku-app-name]
+git push heroku master
+https://[heroku-app-name].herokuapp.com/
 
 Install Composer
 https://getcomposer.org/Composer-Setup.exe
