@@ -1,6 +1,9 @@
 # Laravel
 Laravel
 
+How to write this file
+https://www.udacity.com/course/writing-readmes--ud777
+
 Install git
 https://git-scm.com/downloads
 git --version
