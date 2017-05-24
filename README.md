@@ -1,8 +1,21 @@
 # Laravel
 Laravel
 
+Install git
+https://git-scm.com/downloads
+git --version
+
+Clone project
+git clone https://github.com/heroku/php-getting-started.git
+cd php-getting-started
+
+Install Heroku CLI
+https://devcenter.heroku.com/articles/getting-started-with-php#set-up
+heroku login
+
 Install Composer
 https://getcomposer.org/Composer-Setup.exe
+composer -V
 composer global require laravel/installer
 
 Create new project
@@ -11,6 +24,7 @@ cd [project_name]
 
 Setup PHP
 http://windows.php.net/downloads/releases/php-7.1.5-Win32-VC14-x64.zip
+php -v
 
 Start server local http://127.0.0.1:8000
 php artisan serve
