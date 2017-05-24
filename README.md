@@ -22,11 +22,14 @@ heroku open
 https://[heroku-app-name].herokuapp.com/
 Ensure that at least one instance of the app is running:
 heroku ps:scale web=1
+Check log:
+heroku logs --tail
 
 Install Composer
 https://getcomposer.org/Composer-Setup.exe
 composer -V
 composer global require laravel/installer
+composer update
 
 Create new project
 laravel new [project_name]
