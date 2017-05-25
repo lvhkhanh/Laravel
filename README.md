@@ -60,3 +60,12 @@ exit
 
 Config connect DB
 .env
+
+php artisan help make:controller
+php artisan make:controller -m <Model> <Model>Controller
+
+Route
+Route::get('/', '<Model>Controller@index');
+Route::resource('<model>s', '<Model>Controller');
+php artisan route:list
+
