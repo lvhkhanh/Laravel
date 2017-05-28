@@ -65,6 +65,7 @@ cd php-getting-started
 
 Install Heroku CLI
 https://devcenter.heroku.com/articles/getting-started-with-php#set-up
+https://devcenter.heroku.com/articles/getting-started-with-laravel
 ```
 heroku login
 heroku git:remote -a [heroku-app-name]
