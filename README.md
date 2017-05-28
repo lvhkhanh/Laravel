@@ -10,6 +10,53 @@ https://git-scm.com/downloads
 git --version
 ```
 
+Using Git
+```
+git init
+
+git status
+
+git add [file_name]
+
+git add -A .
+
+git reset
+
+git commit -m "msg"
+
+git log --summary
+
+git remote add origin [remoteUrl]
+
+git push -u origin master
+
+git pull origin master
+
+git stash
+
+git stash apply
+
+git diff HEAD
+
+git diff --staged
+
+git checkout --
+
+git branch
+
+git checkout -b new_branch
+
+git branch new_branch git checkout new_branch
+
+git rm -r folder_of_cats
+
+git commit -am
+
+git merge
+
+git branch -d --force (-f) -D
+```
+
 Clone project
 ```
 git clone https://github.com/heroku/php-getting-started.git
