@@ -149,5 +149,6 @@ Route
 Route::get('/', '<Model>Controller@index');
 Route::resource('<model>s', '<Model>Controller');
 php artisan route:list
+npx nuxi add middleware auth
 ```
 
